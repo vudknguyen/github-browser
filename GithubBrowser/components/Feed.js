@@ -88,6 +88,7 @@ export default class Feed extends Component {
             }} />
           <View style={{
             paddingLeft: 10,
+            flex: 1,
           }}>
             <Text style={{ color: '#666' }}>
               {moment(rowData.created_at).fromNow() }
