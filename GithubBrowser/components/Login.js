@@ -8,7 +8,6 @@ import {
   TouchableHighlight,
   ActivityIndicator,
 } from 'react-native';
-import buffer from 'buffer';
 import AuthService from '../services/AuthService';
 
 export default class Login extends Component {
